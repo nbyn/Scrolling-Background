@@ -10,23 +10,17 @@
 		9A0039DF1B220DBA00D5404B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0039DE1B220DBA00D5404B /* main.m */; };
 		9A0039E21B220DBA00D5404B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0039E11B220DBA00D5404B /* AppDelegate.m */; };
 		9A0039E51B220DBA00D5404B /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0039E41B220DBA00D5404B /* GameScene.m */; };
-		9A0039E71B220DBA00D5404B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9A0039E61B220DBA00D5404B /* GameScene.sks */; };
 		9A0039EA1B220DBA00D5404B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0039E91B220DBA00D5404B /* GameViewController.m */; };
 		9A0039ED1B220DBA00D5404B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0039EB1B220DBA00D5404B /* Main.storyboard */; };
 		9A0039EF1B220DBA00D5404B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0039EE1B220DBA00D5404B /* Images.xcassets */; };
 		9A0039F21B220DBA00D5404B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A0039F01B220DBA00D5404B /* LaunchScreen.xib */; };
-		9A0039FE1B220DBD00D5404B /* ScrollingBackgroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0039FD1B220DBD00D5404B /* ScrollingBackgroundTests.m */; };
+		9A003A0A1B22100A00D5404B /* GameUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A003A091B22100A00D5404B /* GameUtils.m */; };
+		9A003A0E1B22115400D5404B /* AGSpriteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A003A0D1B22115400D5404B /* AGSpriteButton.m */; };
+		9A003A151B22143B00D5404B /* background-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A003A131B22143B00D5404B /* background-568h@2x.png */; };
+		9A003A161B22143B00D5404B /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A003A141B22143B00D5404B /* background@2x.png */; };
+		9A003A191B2214DC00D5404B /* background-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A003A171B2214DC00D5404B /* background-667h@2x.png */; };
+		9A003A1A1B2214DC00D5404B /* background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A003A181B2214DC00D5404B /* background@3x.png */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9A0039F81B220DBA00D5404B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9A0039D11B220DBA00D5404B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9A0039D81B220DBA00D5404B;
-			remoteInfo = ScrollingBackground;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9A0039D91B220DBA00D5404B /* ScrollingBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollingBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,26 +30,25 @@
 		9A0039E11B220DBA00D5404B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9A0039E31B220DBA00D5404B /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		9A0039E41B220DBA00D5404B /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		9A0039E61B220DBA00D5404B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		9A0039E81B220DBA00D5404B /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		9A0039E91B220DBA00D5404B /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		9A0039EC1B220DBA00D5404B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A0039EE1B220DBA00D5404B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9A0039F11B220DBA00D5404B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9A0039F71B220DBA00D5404B /* ScrollingBackgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingBackgroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A0039FC1B220DBD00D5404B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A0039FD1B220DBD00D5404B /* ScrollingBackgroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollingBackgroundTests.m; sourceTree = "<group>"; };
+		9A003A071B22100A00D5404B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		9A003A081B22100A00D5404B /* GameUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameUtils.h; sourceTree = "<group>"; };
+		9A003A091B22100A00D5404B /* GameUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameUtils.m; sourceTree = "<group>"; };
+		9A003A0B1B22108500D5404B /* ScrollingBackground-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ScrollingBackground-PrefixHeader.pch"; sourceTree = "<group>"; };
+		9A003A0C1B22115400D5404B /* AGSpriteButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSpriteButton.h; sourceTree = "<group>"; };
+		9A003A0D1B22115400D5404B /* AGSpriteButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSpriteButton.m; sourceTree = "<group>"; };
+		9A003A131B22143B00D5404B /* background-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-568h@2x.png"; sourceTree = "<group>"; };
+		9A003A141B22143B00D5404B /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		9A003A171B2214DC00D5404B /* background-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-667h@2x.png"; sourceTree = "<group>"; };
+		9A003A181B2214DC00D5404B /* background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9A0039D61B220DBA00D5404B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9A0039F41B220DBA00D5404B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				9A0039DB1B220DBA00D5404B /* ScrollingBackground */,
-				9A0039FA1B220DBB00D5404B /* ScrollingBackgroundTests */,
 				9A0039DA1B220DBA00D5404B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				9A0039D91B220DBA00D5404B /* ScrollingBackground.app */,
-				9A0039F71B220DBA00D5404B /* ScrollingBackgroundTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,11 +77,19 @@
 		9A0039DB1B220DBA00D5404B /* ScrollingBackground */ = {
 			isa = PBXGroup;
 			children = (
+				9A003A131B22143B00D5404B /* background-568h@2x.png */,
+				9A003A141B22143B00D5404B /* background@2x.png */,
+				9A003A171B2214DC00D5404B /* background-667h@2x.png */,
+				9A003A181B2214DC00D5404B /* background@3x.png */,
+				9A003A071B22100A00D5404B /* Constants.h */,
+				9A003A081B22100A00D5404B /* GameUtils.h */,
+				9A003A091B22100A00D5404B /* GameUtils.m */,
+				9A003A0C1B22115400D5404B /* AGSpriteButton.h */,
+				9A003A0D1B22115400D5404B /* AGSpriteButton.m */,
 				9A0039E01B220DBA00D5404B /* AppDelegate.h */,
 				9A0039E11B220DBA00D5404B /* AppDelegate.m */,
 				9A0039E31B220DBA00D5404B /* GameScene.h */,
 				9A0039E41B220DBA00D5404B /* GameScene.m */,
-				9A0039E61B220DBA00D5404B /* GameScene.sks */,
 				9A0039E81B220DBA00D5404B /* GameViewController.h */,
 				9A0039E91B220DBA00D5404B /* GameViewController.m */,
 				9A0039EB1B220DBA00D5404B /* Main.storyboard */,
@@ -105,24 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				9A0039DD1B220DBA00D5404B /* Info.plist */,
+				9A003A0B1B22108500D5404B /* ScrollingBackground-PrefixHeader.pch */,
 				9A0039DE1B220DBA00D5404B /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9A0039FA1B220DBB00D5404B /* ScrollingBackgroundTests */ = {
-			isa = PBXGroup;
-			children = (
-				9A0039FD1B220DBD00D5404B /* ScrollingBackgroundTests.m */,
-				9A0039FB1B220DBD00D5404B /* Supporting Files */,
-			);
-			path = ScrollingBackgroundTests;
-			sourceTree = "<group>";
-		};
-		9A0039FB1B220DBD00D5404B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9A0039FC1B220DBD00D5404B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -147,24 +130,6 @@
 			productReference = 9A0039D91B220DBA00D5404B /* ScrollingBackground.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9A0039F61B220DBA00D5404B /* ScrollingBackgroundTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9A003A041B220DBD00D5404B /* Build configuration list for PBXNativeTarget "ScrollingBackgroundTests" */;
-			buildPhases = (
-				9A0039F31B220DBA00D5404B /* Sources */,
-				9A0039F41B220DBA00D5404B /* Frameworks */,
-				9A0039F51B220DBA00D5404B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9A0039F91B220DBA00D5404B /* PBXTargetDependency */,
-			);
-			name = ScrollingBackgroundTests;
-			productName = ScrollingBackgroundTests;
-			productReference = 9A0039F71B220DBA00D5404B /* ScrollingBackgroundTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -176,10 +141,6 @@
 				TargetAttributes = {
 					9A0039D81B220DBA00D5404B = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					9A0039F61B220DBA00D5404B = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 9A0039D81B220DBA00D5404B;
 					};
 				};
 			};
@@ -197,7 +158,6 @@
 			projectRoot = "";
 			targets = (
 				9A0039D81B220DBA00D5404B /* ScrollingBackground */,
-				9A0039F61B220DBA00D5404B /* ScrollingBackgroundTests */,
 			);
 		};
 /* End PBXProject section */
@@ -209,15 +169,11 @@
 			files = (
 				9A0039F21B220DBA00D5404B /* LaunchScreen.xib in Resources */,
 				9A0039EF1B220DBA00D5404B /* Images.xcassets in Resources */,
-				9A0039E71B220DBA00D5404B /* GameScene.sks in Resources */,
+				9A003A1A1B2214DC00D5404B /* background@3x.png in Resources */,
+				9A003A161B22143B00D5404B /* background@2x.png in Resources */,
+				9A003A191B2214DC00D5404B /* background-667h@2x.png in Resources */,
 				9A0039ED1B220DBA00D5404B /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9A0039F51B220DBA00D5404B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9A003A151B22143B00D5404B /* background-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,29 +185,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A0039EA1B220DBA00D5404B /* GameViewController.m in Sources */,
+				9A003A0A1B22100A00D5404B /* GameUtils.m in Sources */,
 				9A0039E21B220DBA00D5404B /* AppDelegate.m in Sources */,
 				9A0039E51B220DBA00D5404B /* GameScene.m in Sources */,
+				9A003A0E1B22115400D5404B /* AGSpriteButton.m in Sources */,
 				9A0039DF1B220DBA00D5404B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A0039F31B220DBA00D5404B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A0039FE1B220DBD00D5404B /* ScrollingBackgroundTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9A0039F91B220DBA00D5404B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9A0039D81B220DBA00D5404B /* ScrollingBackground */;
-			targetProxy = 9A0039F81B220DBA00D5404B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9A0039EB1B220DBA00D5404B /* Main.storyboard */ = {
@@ -290,6 +232,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -309,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,6 +276,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -346,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -357,7 +301,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ScrollingBackground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -367,43 +313,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ScrollingBackground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		9A003A051B220DBD00D5404B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ScrollingBackgroundTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollingBackground.app/ScrollingBackground";
-			};
-			name = Debug;
-		};
-		9A003A061B220DBD00D5404B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ScrollingBackgroundTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollingBackground.app/ScrollingBackground";
 			};
 			name = Release;
 		};
@@ -424,14 +338,6 @@
 			buildConfigurations = (
 				9A003A021B220DBD00D5404B /* Debug */,
 				9A003A031B220DBD00D5404B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		9A003A041B220DBD00D5404B /* Build configuration list for PBXNativeTarget "ScrollingBackgroundTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9A003A051B220DBD00D5404B /* Debug */,
-				9A003A061B220DBD00D5404B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
